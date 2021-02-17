@@ -9,7 +9,7 @@ class BandsContainer extends Component {
             <div>
                 <h4>Bands: </h4>
                 <ul>
-                    {this.props.bands.map((name, indx) => <li key={indx}>{name}</li>)}
+                    {this.props.bands.map((band, indx) => <li key={indx}>{band.name}</li>)}
                 </ul>
             </div>
         )
